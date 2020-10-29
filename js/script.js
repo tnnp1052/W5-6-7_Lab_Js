@@ -134,22 +134,22 @@ console.log(`The final result for exercise 5 is ${finalNum(numToResult)}`)
 
 
 //Write in HTML
-document.getElementById("ex1").innerHTML = `You will be a ${jobTitle} in ${geographicLocation}, making $${annualSalary} for ${companyName}`
+document.querySelector(`#ex1`).textContent = `You will be a ${jobTitle} in ${geographicLocation}, making $${annualSalary} for ${companyName}`
 
-document.getElementById("ex2").innerHTML = `They are ${currentAge2} years old.`
+document.querySelector(`#ex2`).textContent = `They are ${currentAge2} years old.`
 
-document.getElementById("ex3").innerHTML = `You will need ${totalEat} to last you until the ripe old age of ${maxAge}`
+document.querySelector(`#ex3`).textContent = `You will need ${totalEat} to last you until the ripe old age of ${maxAge}`
 
-document.getElementById("ex4").innerHTML = `The circumference is ${circumferenceCircle} and the area is ${areaCircle}`
+document.querySelector(`#ex4`).textContent = `The circumference is ${circumferenceCircle} and the area is ${areaCircle}`
 
-document.getElementById("ex5").innerHTML = `${temperatureCelcius}°C is ${celciusToFahrenheit}°F and ${temperatureFahrenheit}°F is ${fahrenheitToCelcius}°C`
+document.querySelector(`#ex5`).textContent = `${temperatureCelcius}°C is ${celciusToFahrenheit}°F and ${temperatureFahrenheit}°F is ${fahrenheitToCelcius}°C`
 
-document.getElementById("ex6").innerHTML = `The result of squaring the number ${numToSquare} is ${squareNumber(numToSquare)}`
+document.querySelector(`#ex6`).textContent = `The result of squaring the number ${numToSquare} is ${squareNumber(numToSquare)}`
 
-document.getElementById("ex7").innerHTML = `Half of ${numToHalf} is ${halfNumber(numToHalf)}`
+document.querySelector(`#ex7`).textContent = `Half of ${numToHalf} is ${halfNumber(numToHalf)}`
 
-document.getElementById("ex8").innerHTML = `${num1} is ${percentOf(num1,num2)}% os ${num2}`
+document.querySelector(`#ex8`).textContent = `${num1} is ${percentOf(num1,num2)}% os ${num2}`
 
-document.getElementById("ex9").innerHTML = `The area for a circle with radius ${numToArea} is ${roundResult}`
+document.querySelector(`#ex9`).textContent = `The area for a circle with radius ${numToArea} is ${roundResult}`
 
-document.getElementById("ex10").innerHTML = `The final result for exercise 5 is ${finalNum(numToResult)}`
+document.querySelector(`#ex10`).textContent = `The final result for exercise 5 is ${finalNum(numToResult)}`
